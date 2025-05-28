@@ -27,7 +27,7 @@ function adicionaLinha() {
     }
 
     if (nomes.includes(inputNome.value) || telefones.includes(telefoneLimpo)) {
-        alert('Esse contato ou número já foi adicionado, anjo!');
+        alert('Esse contato ou número já foi adicionado.');
         return;
     }
 
